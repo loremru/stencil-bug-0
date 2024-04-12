@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build --concurrency=4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "lerna": "^8.1.2",
+    "typescript": "^5.4.5"
+  }
+}
